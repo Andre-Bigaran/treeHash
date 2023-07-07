@@ -147,7 +147,7 @@ public class BinaryTree {
         binaryTree.insert(600, "1294");
         System.out.println("Mostrar 20 e 600");
         System.out.println(binaryTree.get(20) + ", " + binaryTree.get(600));
-        System.out.println("Remover 500");
+        System.out.println("Remover 600");
         binaryTree.remove(600);
         System.out.println("Mostrar 20 e 600 depois removendo");
         System.out.println(binaryTree.get(20) + ", " + binaryTree.get(600));
