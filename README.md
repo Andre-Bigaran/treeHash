@@ -1,16 +1,16 @@
 # TREEHASH
 
-Este repositório contém três classes: `CustomHashTable`, `BinaryTree` e `Node`. Essas classes fornecem implementações para uma tabela hash personalizada, uma árvore binária e um nó em Java.
+Este repositório contém três classes: `TableHash`, `BinaryTree` e `Node`. Essas classes fornecem implementações para uma tabela hash personalizada, uma árvore binária e um nó em Java.
 
-## CustomHashTable
+## TableHash
 
-A classe `CustomHashTable` representa uma estrutura de dados de tabela hash. Ela permite inserir pares chave-valor, recuperar valores com base nas chaves, remover pares chave-valor e imprimir o conteúdo da tabela hash. A tabela hash é implementada usando um array de listas, onde cada lista armazena os pares chave-valor que têm o mesmo índice de hash.
+A classe `TableHash` representa uma estrutura de dados de tabela hash. Ela permite inserir pares chave-valor, recuperar valores com base nas chaves, remover pares chave-valor e imprimir o conteúdo da tabela hash. A tabela hash é implementada usando um array de listas, onde cada lista armazena os pares chave-valor que têm o mesmo índice de hash.
 
 ### Utilização
 
-Para utilizar a classe `CustomHashTable`, siga estes passos:
+Para utilizar a classe `TableHash`, siga estes passos:
 
-1. Crie uma instância da classe `CustomHashTable`, especificando a capacidade desejada.
+1. Crie uma instância da classe `TableHash`, especificando a capacidade desejada.
 2. Insira pares chave-valor usando o método `insert`.
 3. Recupere valores fornecendo a chave para o método `get`.
 4. Remova pares chave-valor usando o método `remove`.
